@@ -1,5 +1,5 @@
 from ultralytics import YOLO
 
-model = YOLO('yolo11n.pt')
+model = YOLO('yolo11s.pt')
 
-model.predict(source="screen", show=True)
+model.predict(source=0, show=True)
